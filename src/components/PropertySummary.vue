@@ -5,16 +5,10 @@
       src="https://maps.googleapis.com/maps/api/streetview?size=400x200&pitch=10&fov=180&location=320%20N%20Canal%20St,%20Chicago,%20IL%2060606&key=AIzaSyApsGVNO-Ms2sIJM4PtmwC5VfeutsZSExo"
     />
     <div class="tile-content">
-      <!-- Name: {{property.name}} -->
       <div class="address-value text-left">320 N Canal St</div>
       <div class="city-value text-left">Chicago, IL 60606</div>
       <div class="units-value text-left">5 Units / Penthouse / 2015</div>
       <div class="avm-value text-left">7403292 AVM</div>
-      <!-- {{property.address}}
-        # Units: {{property.numberUnits ? property.numberUnits : '--'}}
-        Type: {{property.propetyType ? property.propetyType : '--'}}
-        Year Build: {{property.yearBuild ? property.yearBuild : '--'}}
-      AVM: {{property.avm ? property.avm : '--'}}-->
     </div>
     <div>
       <LateralNav :options="propertySections" />
