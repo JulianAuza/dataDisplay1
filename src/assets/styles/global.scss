@@ -1,0 +1,78 @@
+@import "components/NavBar.scss";
+@import "components/LateralNav.scss";
+@import "components/SecondNavBar.scss";
+@import "components/PropertySummary.scss";
+@import "components/GPRcard.scss";
+@import "components/OperatingExpenses.scss";
+@import "components/HistoricalOperatingExpenses.scss";
+
+.display-flex {
+  display: flex;
+}
+
+img{
+  padding:0;
+}
+
+.display-inline-block{
+  display:inline-block;
+}
+
+h3{
+  text-align: left;
+  margin-top:15px;
+  margin-left:10px;
+  margin-bottom:10px;
+}
+
+.tile{
+  background-color:#FFFFFF;
+  border: 1px solid #C0CCD2;
+  border-radius:2px;
+  margin:5px;
+}
+
+.tile-content{
+  padding:15px;
+}
+
+.row {
+  flex-direction: row;
+}
+
+
+.tile-header{
+  border-bottom: 1px solid #C0CCD2;
+  height:40px;
+  h4{
+    line-height:40px;
+    text-align: left;
+    color:#4E5D64;
+    margin-left:10px;
+    font-size:12px;
+  }
+}
+
+.main-content {
+  max-width:1100px;
+  min-width:900px;
+  width: 90%;
+  margin: auto;
+  margin-top:15px;
+}
+
+.property-container {
+  width:25%;
+}
+
+.charts-container {
+  width:75%;
+}
+
+.float-right{
+  float:right;
+}
+
+.float-left{
+  float:left;
+}

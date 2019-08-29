@@ -1,0 +1,27 @@
+.lateral-nav-item-container:hover{
+  background-color:#dadada;
+  cursor: pointer;
+}
+
+.lateral-nav-item-container:nth-child(3) {
+  background-color:#475961;
+  color:white;
+}
+.lateral-nav-item{
+  text-align:left;
+  padding-left:17px;
+  padding-top:10px;
+}
+.lateral-nav-text{
+  padding-left:10px;
+  display:inline-block;
+  padding-bottom:5px;
+  vertical-align:top;
+  p{
+    padding-bottom:5px;
+  }
+}
+
+img{
+  padding-top:3px;
+}

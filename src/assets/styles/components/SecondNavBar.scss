@@ -1,0 +1,45 @@
+
+.second-nav-container{
+  background-color: #FFFFFF;
+  width:100%;
+  border-bottom: 1px solid #C0CCD2; 
+  padding-top:5px;
+  padding-bottom:5px;
+  height:40px;
+}
+.header-label {
+  font-size: 14px;
+  margin: 2px;
+}
+.property-name {
+  text-decoration: underline;
+  margin-left: 15px;
+}
+.label-container {
+  margin: 9px;
+  margin-left: 12px;
+}
+.cta-container {
+  vertical-align: top;
+  margin: 4px;
+  margin-right: 5px;
+}
+.cta {
+  height: 25px;
+  width: 75px;
+  margin: 3px;
+  border: 1px solid #79ac48;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.cta:hover{
+  opacity:.8
+}
+.primary {
+  background-color: #79ac48;
+  color: white;
+}
+.secondary {
+  background-color: white;
+  color: #79ac48;
+}

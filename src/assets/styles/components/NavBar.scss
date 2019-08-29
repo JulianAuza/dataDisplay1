@@ -1,0 +1,36 @@
+.nav-container{
+    background-color:#36474F;
+    height:40px;
+    color:white;
+    padding:5px;
+  }
+
+  .help{
+    padding:10px;
+  }
+   .remaining-properties{
+     padding:10px;
+     padding-right:15px;
+   }
+  .user-image{
+    padding:10px;
+  }
+  .user-info {
+    float: right;
+    font-size:14px;
+  }
+  
+  .main-nav-container{
+    width:60%;
+    float:left;
+  }
+  
+  .main-nav-item{
+    margin-left:100px;
+    padding-top:8px;
+    a{
+      vertical-align:text-top;
+      padding-left:10px;
+      font-size:12px;
+    }
+  }
